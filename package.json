@@ -1,0 +1,20 @@
+{
+  "name": "springbox-outhouse",
+  "version": "1.0.0",
+  "description": "This is the simple api that the restroom arduino will call if the restroom is opened or closed",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "springbox-development <springbox-development@springbox.com>",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "consolidate": "^0.14.1",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "mustache": "^2.2.1",
+    "socket.io": "^1.4.8"
+  }
+}

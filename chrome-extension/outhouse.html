@@ -1,0 +1,32 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="outhouse.js"></script>
+	<style>
+		body{
+			background-color: #00aba1;
+			color: #fff;
+		}
+		h1{
+			font-weight: 400;
+			font-family: serif;
+			display: inline-block;
+			text-transform: uppercase;
+			min-width: 200px;
+			text-align: center;
+			-webkit-transform: scale(0);
+			animation-name: show;
+			animation-duration: 1s;
+			animation-delay: 1s;
+			animation-fill-mode: forwards;
+		}
+		@keyframes show{
+			from { -webkit-transform: scale(0); }
+			to { -webkit-transform: scale(1); }
+		}
+	</style>
+</head>
+<body>
+	<h1></h1>
+</body>
+</html>

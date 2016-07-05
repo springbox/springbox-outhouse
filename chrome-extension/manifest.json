@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Springbox Outhouse",
+	"description": "This is a service that will let springboxers know if the restroom on the box side is open",
+	"version": "1.0",
+	"icons": {
+		"16": "sbx-boxlogo16.png",
+       	"48": "sbx-boxlogo48.png",
+      	"128": "sbx-boxlogo128.png"
+	},
+
+	"browser_action":{
+		"default_icon": "sbx-boxlogo.png",
+		"default_popup": "outhouse.html"
+	},
+	"content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}
